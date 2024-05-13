@@ -1,0 +1,36 @@
+html {
+  background-color: gray;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background: #dcf1ff;
+  font-size: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;  
+  gap: 20px;
+}
+
+nav ul li {
+  padding: 10px 10px;
+  background-color: blue;
+  border-radius: 50rem;
+  transition: width 1s, height 1s, background-color 1s;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li:hover{
+  background-color: green;
+}
